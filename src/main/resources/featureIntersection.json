@@ -1,0 +1,100 @@
+{
+  "0": {
+    "featureName": "arc_avc",
+    "enabled": false,
+    "intersectionList": [
+      "1",
+      "10"
+    ]
+  },
+  "1": {
+    "featureName": "bonjour_gateway",
+    "enabled": false,
+    "intersectionList": [
+      "3",
+      "0"
+    ]
+  },
+  "2": {
+    "featureName": "dhcp_nat",
+    "enabled": false,
+    "intersectionList": [
+      "1",
+      "2",
+      "6"
+    ]
+  },
+  "3": {
+    "featureName": "client_isolation",
+    "enabled": false,
+    "intersectionList": [
+      "3",
+      "5",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "4": {
+    "featureName": "dynamic_vlan",
+    "enabled": false,
+    "intersectionList": [
+      "10"
+    ]
+  },
+  "5": {
+    "featureName": "guest_access",
+    "enabled": false,
+    "intersectionList": [
+      "2"
+    ]
+  },
+  "6": {
+    "featureName": "ipv6",
+    "enabled": false,
+    "intersectionList": [
+      "3"
+    ]
+  },
+  "7": {
+    "featureName": "mesh",
+    "enabled": false,
+    "intersectionList": [
+      "2"
+    ]
+  },
+  "8": {
+    "featureName": "we_chat",
+    "enabled": false,
+    "intersectionList": [
+      "2"
+    ]
+  },
+  "9": {
+    "featureName": "web_auth",
+    "enabled": false,
+    "intersectionList": [
+      "2"
+    ]
+  },
+  "10": {
+    "featureName": "wlan_access_vlan",
+    "enabled": false,
+    "intersectionList": [
+      "2","4"
+    ]
+  }
+  "featureKeyList": {
+    "arc_avc": "0",
+    "bonjour_gateway": "1",
+    "client_isolation": "2",
+    "dhcp_nat": "3",
+    "dynamic_vlan": "4",
+    "guest_access": "5",
+    "ipv6": "6",
+    "mesh": "7",
+    "we_chat": "8",
+    "web_auth": "9",
+    "wlan_access_vlan": "10"
+  }
+}
